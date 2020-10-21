@@ -67,34 +67,34 @@ function draw() {
 sling.display();
 ground.display();
 
-if(touch(stone.body,mango1.body)){
+if(touch(stone,mango1)){
 	
-	Matter.Body.setStatic(stone.body,false)
+	Matter.Body.setStatic(mango1.body,false)
 console.log("H");
 }
-if(touch(stone.body,mango2.body)){
+if(touch(stone,mango2)){
 	
-	Matter.Body.setStatic(stone.body,false)
+	Matter.Body.setStatic(mango2.body,false)
 	console.log("H");
 }
-if(touch(stone.body,mango3.body)){
+if(touch(stone,mango3)){
 	
-	Matter.Body.setStatic(stone.body,false)
+	Matter.Body.setStatic(mango3.body,false)
 	console.log("H");
 }
-if(touch(stone.body,mango4.body)){
+if(touch(stone,mango4)){
 	
-	Matter.Body.setStatic(stone.body,false)
+	Matter.Body.setStatic(mango4.body,false)
 	console.log("H");
 }
-if(touch(stone.body,mango5.body)){
+if(touch(stone,mango5)){
 	
-	Matter.Body.setStatic(stone.body,false)
+	Matter.Body.setStatic(mango5.body,false)
 	console.log("H");
 }
-if(touch(stone.body,mango6.body)){
+if(touch(stone,mango6)){
 	
-	Matter.Body.setStatic(stone.body,false)
+	Matter.Body.setStatic(mango6.body,false)
 	console.log("H");
 }
 
